@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lan="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Ruin Crawler</title>
+  </head>
+  <body>
+    <h1>Ruin Crawler</h1>
+    <p class="bolded">Instructions:</p>
+    <p>Navigate and explore the ruins using the commands W, A, S, D</p>
+    <p>Look for symbols to enter into the command for clues.</p>
+    <p class="goodLuck">
+      Good luck, and have fun! Don't be afraid to ask for help
+    </p>
+    <!-- <p>
+      Collect interactable items and store them into your bag. They may be
+      helful later on!
+    </p> -->
+    <!-- Add in canvas element -->
+    <canvas id="myCanvas"></canvas>
+
+    <!-- Load imgs to page -->
+    <img id="ruin-entrance-img" src="img/outside-view-ruin.png" />
+    <img id="final-room" src="img/finalRoom.png" />
+    <img id="mysterious-room" src="img/mysteriousRoom.png" />
+    <img id="sunlit-room" src="img/sunlitRoom.png" />
+    <img id="decorated-room" src="img/decoratedRoom.png" />
+
+    <!-- Load Javascript -->
+    <script defer src="main.js"></script>
+    <p class="command">
+      Command: <input type="text" id="command-input" />
+      <button id="btn">Enter</button>
+    </p>
+    <!-- <p class="bolded">Bag</p>
+    <canvas id="myBag"></canvas> -->
+  </body>
+</html>
